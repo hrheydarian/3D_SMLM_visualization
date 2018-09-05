@@ -6,7 +6,7 @@ This is however computationally challenging as one need to compute the density a
 ```matlab
 scatter3(x, y, z, 1, color_vector, '.');
 ```
-where `x`, `y` and `z` are $N\times1$
+where `x`, `y` and `z` are $N$.
 In this project, I computed the density at each single point (localization) by computing the sum of the exponential distances of the point of interest to all the other points (localization).
 The direct computation of these distances, however, is very time consuming especially for very large point clouds or SMLM data (>1000).
 
