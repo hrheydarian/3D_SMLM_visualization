@@ -13,7 +13,7 @@ The direct computation of these distances, however, is very time consuming espec
 
 In order to speed-up the computational time, I used the Fast Gauss Transform in order to compute all pair-wise distances. This is followed by summing up all distances for the localization of interest.
 
-For Fast Gauss Transform, I used the following implementation which has a MATLAB wrapper that can easily be compiled (It worked for me with MATLAB 2015-2017).
+For Fast Gauss Transform, I used the following implementation which has a MATLAB wrapper that can easily be compiled (It worked for me with MATLAB 2015-2017).  
 https://github.com/vmorariu/figtree
 
 Once you download the above library and compiled the required mex files, you can run script.m in order to visualize 3D SMLM datasets.

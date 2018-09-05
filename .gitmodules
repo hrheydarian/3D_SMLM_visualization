@@ -1,0 +1,3 @@
+[submodule "FGT"]
+	path = FGT
+	url = git@github.com:vmorariu/figtree.git
