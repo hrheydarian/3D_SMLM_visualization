@@ -12,7 +12,7 @@ In this project, I computed the density at each single point (localization) by c
 
 ![density equation](img/eq_density.png)
 
-where density `=color_vector`. The direct computation of these distances, however, is very time consuming especially for very large point clouds or SMLM data (>1000).
+where density `= color_vector` and sigma acts as a sort of smoothing parameter. The direct computation of these distances, however, is very time consuming especially for very large point clouds or SMLM data (>1000).
 
 In order to speed-up the computational time, I used the Fast Gauss Transform in order to compute all pair-wise distances. This is followed by summing up all distances for the localization of interest.
 
