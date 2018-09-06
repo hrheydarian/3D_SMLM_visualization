@@ -2,7 +2,7 @@
 
 SMLM datasets are point clouds in 2D or 3D space (list of coordinates).
 The most suitable way of visualizing this kind of data in MATLAB is the density-colored scatter plot. The advantage of scatter plot in MATLAB is that once you plot it, moving/panning/zooming/rotating is pretty fast compared to other kind of visualizations. The disadvantage however, is that you cannot define transparency parameter for each point that is rendered. Therefore, occlusion is unavoidable.
-Density estimation, however, is computationally challenging as one need to compute the density at each single point (or localization) to be able to assing color to each point.   
+Density estimation, however, is computationally challenging as one need to compute the density at each single point (or localization) to be able to assign color to each point.   
 ```matlab
 scatter3(x, y, z, 1, color_vector, '.');
 ```
