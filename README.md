@@ -23,4 +23,4 @@ Once you download the above library and compile the required mex files, you can 
 
 In data folder, I have provided a 3D simulated SMLM particle which you can try. It contains ~300k localization and on my machine it takes 15 seconds to be plotted. The following is a side-view of this particle:
 
-![density equation](img/visualization.png)
+![density equation](img/visulaization.png)
